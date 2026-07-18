@@ -1,0 +1,7 @@
+# NOTE: numpy must be < 2.0 — the code uses np.infty, which was removed in
+# NumPy 2.0. numba 0.60.0 is the newest release compatible with numpy 1.26.
+numpy==1.26.4
+scipy==1.13.1
+numba==0.60.0
+matplotlib>=3.7
+networkx>=3.0
